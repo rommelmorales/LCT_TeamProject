@@ -1,0 +1,61 @@
+.navbar .menu li {
+    display: inline-block;
+    background-color: aqua;
+    color: blue;
+}
+
+.navbar {
+    background-color: aqua;
+    border-top: auto    ;
+    padding: 10px;
+    margin-top: auto;
+}
+
+.menu {
+    text-align: End;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+/**Services Style - Card****/
+.services {
+    color: black;
+    background: pink;
+    /*padding-top: 2%;
+    padding-bottom: 2%;*/
+}
+
+.services .services-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 5%;
+}
+
+.services .services-content .card {
+    width: calc(20% - 20px);
+    background: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px 25px;
+}
+
+.services .services-content .card img{
+    height: 60px;
+    width: 60px;
+}
+
+body {
+    text-align: center;
+}
+
